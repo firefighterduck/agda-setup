@@ -2,6 +2,7 @@
 
 ################################################################################
 FROM ubuntu:22.04 AS base
+LABEL org.opencontainers.image.source=https://github.com/firefighterduck/agda-setup
 
 ################################################################################
 FROM base AS builder

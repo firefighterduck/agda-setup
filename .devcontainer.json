@@ -1,5 +1,5 @@
 {
-    "build": {"dockerfile": "Dockerfile", "target": "app"},
+    "image": "ghcr.io/firefighterduck/agdatt:latest",
 
     "customizations": {
             "vscode": {
