@@ -1,0 +1,9 @@
+{
+    "build": {"dockerfile": "Dockerfile", "target": "app"},
+
+    "customizations": {
+            "vscode": {
+                    "extensions": ["banacorn.agda-mode"]
+            }
+    }
+}
