@@ -45,3 +45,4 @@ The Dev Containers workflow can be slower and more resource intensive then a nat
 Moreover, the Agda installation provided in the container can not be used to compile standalone programs if that woudl require the Haskell FFI, as the container does not contain ghc or cabal to keep it small (~480MB vs. ~1.2GB).
 If you want to have access to both ghc and cabal in the container feel free to change the Dockerfile and rebuild it yourself.
 The provided container is based on the Dockerfile in this repository without any changes.
+You can also download the container directly without the dev container extension by running `docker pull ghcr.io/firefighterduck/agdatt:latest`.
