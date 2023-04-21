@@ -46,3 +46,6 @@ Moreover, the Agda installation provided in the container can not be used to com
 If you want to have access to both ghc and cabal in the container feel free to change the Dockerfile and rebuild it yourself.
 The provided container is based on the Dockerfile in this repository without any changes.
 You can also download the container directly without the dev container extension by running `docker pull ghcr.io/firefighterduck/agdatt:latest`.
+
+The setup has been tested on Ubuntu 22.04 LTS and Windows 11.
+If it doesn't work on your system, please feel free to open up an issue or a PR.
