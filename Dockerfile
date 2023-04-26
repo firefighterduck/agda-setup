@@ -43,4 +43,6 @@ RUN set -eux; \
 COPY --from=builder /root/.cabal/store/ghc-8.8.4 /root/.cabal/store/ghc-8.8.4
 COPY --from=builder /root/.cabal/bin /root/.cabal/bin
 
+ADD agda-mode-0.3.11.vsix /root/agda-mode-0.3.11.vsix
+
 ENV PATH=${PATH}:/root/.cabal/bin

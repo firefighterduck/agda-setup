@@ -35,7 +35,7 @@ You need to copy the `.devcontainer.json` file from this repository to the new d
 Once you have done this (or if you use this repository), you can start VSCode, open the directory and open it in the dev container.
 You can do this either by clicking on the pop-up in the bottom right or by opening the command pallette (Ctrl+Shift+P on Linux) and choosing `Dev Containers: Reopen in Container`.
 
-VSCode will then load the current directory through the container and automatically install the agda-mode extension for easier interaction with Agda.
+VSCode will then load the current directory through the container and automatically install the agda-mode extension (the fixed version from [here](https://github.com/banacorn/agda-mode-vscode/pull/140)) for easier interaction with Agda.
 Because it has to fetch the image (~480MB) and setup everything, this may take a while.
 In contrast, building Agda from scratch can take up to 15 minutes on a rather fast machine.
 Once the agda-mode extension is loaded (this can e.g. be seen when the extension tab doesn't show the clock icon anymore), open any Agda file (e.g. the hello-world.agda provided in the repository) and press Ctrl+C followed by Ctrl+L.

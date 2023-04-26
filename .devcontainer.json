@@ -1,9 +1,9 @@
 {
-    "image": "ghcr.io/firefighterduck/agdatt:latest",
+    "image": "ghcr.io/firefighterduck/agdatt:1.1",
 
     "customizations": {
             "vscode": {
-                    "extensions": ["banacorn.agda-mode"]
+                    "extensions": ["/root/agda-mode-0.3.11.vsix"]
             }
     }
 }
