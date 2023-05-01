@@ -5,7 +5,7 @@ The following sections describe the basic steps to get a working Agda setup with
 The contained Dockerfile can alternatively also be used to build a different setup based on the same image.
 
 ## Preliminaries
-Install VSCode and the DevContainers extension (unfortunately, this extension is proprietary and not available for VSCodium).
+Install VSCode and the Dev Containers extension (unfortunately, this extension is proprietary and not available for VSCodium).
 
 The next step is to install Docker. I suggest to use Docker Engine on Linux systems and Docker Desktop on any other system.
 To find out, whether your system can run Docker Engine, try the following commands:
